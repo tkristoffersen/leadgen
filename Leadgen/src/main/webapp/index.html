@@ -1,10 +1,396 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Leadgenerering:</h1>
-    </body>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FlatVault</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom Style Sheet -->
+
+<link href="css/style.css" rel="stylesheet">
+<!--<link rel="shortcut icon" href="img/favicon.png">-->
+</head>
+<body>
+<!-- =========================
+     Pre-loader 
+============================== -->
+
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div id="object"></div>
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     Section1 - Header   
+============================== -->
+  <div class="jumbotron">
+    <div class="container"> 
+      <div class="row">
+        <!-- Header Left -->
+        <div class="col-sm-7">
+          <div class="logo"><a href="#"><img alt="" src="img/company.png"></a></div>
+          <div class="verticle-line">
+            <h1>Clean & Beautiful<br>
+              landing page template</h1>
+            <h2>with ultimate design & features.</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh neque, convallis ut interdum a, consequat sit amet mauris. Vivamus sed tincidunt enim.</p>
+          <button class="view-detail">View Detail</button>
+        </div>
+        <!-- /End Header Left --> 
+        <!-- Header Form -->
+        <div class="col-sm-5" id="join-us-form"> 
+          <!-- Form Title -->
+            <h2 class="form-title">Udfyld formularen nu<br>
+              og få 3 tilbud med det samme.<br>
+          <span class="arrow-down"></span>
+              </h2>
+          <!--- /End Form Title -->
+		<div class="form-bg">
+          <div id="join-us-results"></div>
+          <!-- Form -->
+		    <div class="form-group">
+              <input type="text" name="first_name" id="first_name" class="form-control f-input input-field" placeholder="Fornavn" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="last_name" id="last_name" class="form-control f-input input-field" placeholder="Efternavn" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" class="form-control f-input input-field" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" maxlength="15"  class="form-control f-input input-field" placeholder="Telefon nr." />
+            </div>
+            <div class="form-group">
+              <input type="text" name="website" class="form-control f-input input-field" placeholder="website" />
+            </div>
+			<button type="submit" class="submit-btn" id="submit_btn">Send</button>
+          </div>
+          <!-- /End Form --> 
+        </div>
+        <!-- /End Header Form --> 
+      </div>
+    </div>
+  </div>
+
+<!-- =========================
+     Section2 - Advertised   
+============================== -->
+<div id="advertised-section">
+  <div class="container"> 
+    <div class="row">
+      <!-- Box1 -->
+      <div class="col-md-3">
+        <div class="advertised red">
+          <div class="arrow-left"></div>
+          <div class="arrow-down-2"></div>
+          <p>Advertised On</p>
+        </div>
+      </div>
+      <!-- /End Box1 --> 
+    
+    <!-- Box2 -->
+    <div class="col-md-3">
+      <div class="advertised">
+        <p><a href="#"><img alt="" src="img/brands.png"></a></p>
+      </div>
+    </div>
+    <!-- /End Box2 --> 
+    
+    <!-- Box3 -->
+    <div class="col-md-3">
+      <div class="advertised">
+        <p><a href="#"><img alt="" src="img/brands.png"></a></p>
+      </div>
+    </div>
+    <!-- /End Box3 --> 
+    
+    <!-- Box4 -->
+    <div class="col-md-3">
+      <div class="advertised">
+        <p><a href="#"><img alt="" src="img/brands.png"></a></p>
+      </div>
+    </div>
+    <!-- /End Box4 --> 
+  </div>
+</div>
+</div>
+<!-- =========================
+     Section3 - Features   
+============================== -->
+<section id="feature-section">
+  <div class="container">
+    <div class=" col-md-12 white-bg"> 
+      <!-- Features Left -->
+      <div class="col-sm-8">
+          <h2 class="verticle-line">Features<br>
+            you will love & enjoy.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh neque, convallis ut interdum a, consequat sit amet mauris. Vivamus sed tincidunt enim.  per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <ul class="feature-list">
+          <li>
+            <div class="feature-bullet">1</div>
+            <div class="feature-content">
+                <h3>Desktop & Mobile Version.</h3>
+                <p>Lorem ipsum dolor, consectetur convallis ut  sit amet mauris.</p>
+            </div>
+          </li>
+          <li>
+            <div class="feature-bullet">2</div>
+            <div class="feature-content">
+                <h3>Drag & Drop Builder.</h3>
+                <p>Lorem ipsum dolor, consectetur convallis ut  sit amet mauris.</p>
+            </div>
+          </li>
+          <li>
+            <div class="feature-bullet">3</div>
+            <div class="feature-content">
+                <h3>Awesome Modern Design.</h3>
+                <p>Lorem ipsum dolor, consectetur convallis ut  sit amet mauris.</p>
+            </div>
+          </li>
+          <li>
+            <div class="feature-bullet">4</div>
+            <div class="feature-content">
+                <h3>Super Easy to Edit.</h3>
+                <p>Lorem ipsum dolor, consectetur convallis ut  sit amet mauris.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- /End Features Left --> 
+      
+      <!-- Features Right -->
+      <div class="col-sm-4 phone-img">
+        <img alt="" src="img/mobile.png">
+      </div>
+      <!-- /End Features Right --> 
+  </div>
+</div>
+</section>
+
+<!-- =========================
+     Section4 - Design   
+============================== -->
+<section>
+  <div class="container">
+    <div class="col-md-12 red-bg">
+    
+      <!-- HEADING -->
+      <h2>Design that will touch & sense</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. <br>
+Integer sollicitudin tempus. </p>
+      <div class="separator"></div>
+      
+      <!-- Video -->
+      <div class="video-img"><img alt="" src="img/laptop.png">
+        <div class="video">
+         <iframe src="https://player.vimeo.com/video/88902745?color=ffffff" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<!-- =========================
+     Section5 - Benifits   
+============================== -->
+<section>
+  <div class="container">
+    <div class="white-bg">
+    
+      <!-- Section Heading -->
+      <h2>Benifits you will love & enjoy</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. <br>
+Integer sollicitudin tempus. </p>
+      <div class="separator red"></div>
+      <div class="clearfix"> 
+      
+        <!-- Benifit1 -->
+        <div class="col-md-4 ">
+          <div class="benifit-icon"><img alt="" src="img/icon1.png"></div>
+          <h3>Eye candy design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. <br>
+Integer sollicitudin tempus. </p>
+        </div>
+        <!-- /End Benifit1 --> 
+        
+        <!-- Benifit2 -->
+        <div class="col-md-4 ">
+          <div class="benifit-icon"><img alt="" src="img/icon2.png"></div>
+          <h3>Excellent framework</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. <br>
+Integer sollicitudin tempus. </p>
+        </div>
+        <!-- /End Benifit2 --> 
+        
+        <!-- Benifit3 -->
+        <div class="col-md-4 ">
+          <div class="benifit-icon"><img alt="" src="img/icon3.png"></div>
+          <h3>Top notch features</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. <br>
+Integer sollicitudin tempus. </p>
+        </div>
+        <!-- /End Benifit3 --> 
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     Section6 - Clients   
+============================== -->
+<section>
+  <div class="container">
+    <div class="col-md-12 red-bg">
+    
+      <!-- Client Image -->
+      <div class="client-img"><img alt="" src="img/client.png"></div>
+      
+      <!-- Cliant Testimonial -->
+      <blockquote class="client-saying">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh neque, convallis ut interdum a, convallis ut interdum a,  consequat sit amet mauris. Vivamus sed tincidunt enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra,  consectetur adipiscing elit. Vestibulum nibh neque, convallis ut interdum a, per inceptos himenaeos." </p>
+        <h3>Jonathan Doe - FlatVault Client </h3> </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     Section7 - Price   
+============================== -->
+<section>
+  <div class="container">
+  	<div class="row">
+      <!-- Price1 -->
+      <div class="col-md-4">
+      	<div class="price-bg">
+            <div class="price-circle">55<span>$</span></div>
+            <h4>BASIC PRICING</h4>
+            <div class="price-seprator red"></div>
+            <ul class="price-list">
+              <li>Design + Html5</li>
+              <li>Responsive</li>
+              <li>Blog Page</li>
+              <li>Pagewiz Framework</li>
+            </ul>
+            <button class="price-btn">View Detail</button>
+        </div>
+      </div>
+      <!-- /End Price1 --> 
+      
+      <!-- Price2 -->
+      <div class="col-md-4">
+      	<div class="price-bg red">
+            <div class="price-circle">75<span>$</span></div>
+            <h4>PRO PRICING</h4>
+            <div class="price-seprator"></div>
+            <ul class="price-list">
+              <li>Design + Html5</li>
+              <li>Responsive</li>
+              <li>Blog Page</li>
+              <li>Pagewiz Framework</li>
+            </ul>
+            <button class="price-btn">View Detail</button>
+        </div>
+      </div>
+      <!-- /End Price2 --> 
+      
+      <!-- Price3 -->
+      <div class="col-md-4">
+      	<div class="price-bg">
+            <div class="price-circle">95<span>$</span></div>
+            <h4>ELITE PRICING</h4>
+            <div class="price-seprator red"></div>
+            <ul class="price-list">
+              <li>Design + Html5</li>
+              <li>Responsive</li>
+              <li>Blog Page</li>
+              <li>Pagewiz Framework</li>
+            </ul>
+            <button class="price-btn">View Detail</button>
+        </div>
+      </div>
+      <!-- /End Price3 --> 
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     Section8 - Subscribe   
+============================== -->
+<section id="subscribe-bg">
+  <div class="container">
+    <div class="col-md-12">
+    
+    <!-- Section Heading -->
+      <h2>Subscribe latest news & updates</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. Integer sollicitudin tempus.</p>
+      <div class="separator"></div>
+
+      <!-- Newsletter -->
+      <div class="clearfix">
+      <div class="newsletter">
+      
+      <!-- Newsletter Error -->
+      <div id="newsletter-error">Subscribe error, please review your email address.</div>
+                
+      <!-- Newsletter Success -->       
+      <div id="newsletter-success">You're now subscribed, thank you!</div>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+          <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+              <div id="mc_embed_signup_scroll">
+                  <input class="newsletter-input email" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;">
+                      <input type="text" name="b_cfe258a0cf370d5efaa793bc7_fa81ce5caf" tabindex="-1" value="">
+                  </div>
+                  <div class="clear">
+                      <input class="newsletter-button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                  </div>
+              </div>
+          </form>
+      </div>
+
+<!--End mc_embed_signup-->
+        </div>
+        
+        <!-- Social Media -->
+        <div class="social">
+          <p>If us like it spread the word and share with friends :)</p>
+          <ul class="social-icons">
+            <li><a href="#"><img alt="" src="img/social1.png"></a></li>
+            <li><a href="#"><img alt="" src="img/social2.png"></a></li>
+            <li><a href="#"><img alt="" src="img/social3.png"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================
+     Section9 - Copyright   
+============================== -->
+<footer class="copyright-section">
+  <div class="container">
+    <div class="col-md-12 ">
+      <P>© Copyright 2014 <a href="#">FlatVaut. </a>Designed by <a href="#">CreativeCary.</a></P>
+    </div>
+  </div>
+</footer>
+
+<!-- =========================
+     Scripts   
+============================== -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.ajaxchimp.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
 </html>
